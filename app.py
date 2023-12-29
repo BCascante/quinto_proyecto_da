@@ -4,7 +4,7 @@ import plotly_express as px
 
 car_data = pd.read_csv('C:/Users/User/OneDrive/Data Analyst/GitHub/quinto_proyecto_da/vehicles_us.csv')
 
-st.header("Vehicles Graphics")
+st.header("Gráficos de datos sobre anuncios de venta de coches")
 
 hist_button = st.button('Construir histograma') # crear un botón
         
